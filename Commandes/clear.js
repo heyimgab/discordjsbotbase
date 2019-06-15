@@ -12,7 +12,7 @@ module.exports.run = async(client, message, args) => {
 
     message.channel.bulkDelete(args[0]);
 
-    message.channel.send(`${args[0]} messages ont étés supprimés !`);
+    message.channel.send(`${args[0]} messages supprimés !`);
 };
 
 module.exports.help = {
